@@ -1,14 +1,14 @@
-const readline = require("readline");
+const readline = require("readline")
 
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
-});
+})
 
 rl.question("Digite seu nome: ", (nomeHeroi) => {
     rl.question("Digite seu nível de XP: ", (nivelXp) => {
-        // Convertendo nivelXP para número, caso seja necessário fazer comparações numéricas
-        nivelXp = parseInt(nivelXp, 10);
+        
+        nivelXp = parseInt(nivelXp, 10)
 
 
 
